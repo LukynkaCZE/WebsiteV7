@@ -1,0 +1,83 @@
+:root {
+    --background: #1e282d;
+    --maincolor: #ff4081;
+    --text: #b8bec1;
+    --white: #e8dcdc;
+    --highlight: #ffd73f;
+    --accessory: #65fcda;
+    --scroll: #323d43;
+    --error: #fe5352;
+    --success: #b2fc80;
+}
+
+html {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--maincolor);
+    margin: 5px;
+    width: 99%;
+    height: 98.2%;
+}
+
+body {
+	background: var(--background);
+	font-family: 'JetBrains Mono';
+	font-size: 17px;
+	line-height: 10px;
+}
+p {
+    color: var(--text);
+}
+
+.main {
+    color: var(--maincolor);
+}
+.highlight {
+    color: var(--highlight);
+}
+.accessory {
+    color: var(--accessory);
+}
+.white {
+    color: var(--white);
+    white-space: pre;
+    font-family: monospace;
+}
+
+.full-main {
+    color: var(--background);
+    background: var(--maincolor);
+}
+.full-highlight {
+    color: var(--background);
+    background: var(--highlight);
+}
+.full-accessory {
+    color: var(--background);
+    background: var(--accessory);
+}
+.full-success {
+    color: var(--background);
+    background: var(--success);
+}
+.full-error {
+    color: var(--background);
+    background: var(--error);
+}
+
+ a:link {
+    color: var(--highlight);
+  }
+  
+  a:visited {
+    color: var(--highlight);
+  }
+  
+  a:hover {
+    color: var(--success);
+  }
+  
+  a:active {
+    color: var(--maincolor);
+  } 
